@@ -1,0 +1,50 @@
+{
+    "Player Void Function": {
+        "prefix": "$pvf",
+        "body": [
+            "function(\"p: player, uuid: string\")",
+            "   #Do stuff"
+        ]
+    
+    },
+
+    " Void Function": {
+        "prefix": "$vf",
+        "body": [
+            "function(\"\")",
+            "   #Do stuff"
+        ]
+    },
+
+    "Player Function String": {
+        "prefix": "$pfs",
+        "body": [
+            "function(\"p: player, uuid:string\") :: string",
+            "   return \"Hello World\""
+        ]
+    },
+
+    "Player Function Boolean": {
+        "prefix": "$pfb",
+        "body": [
+            "function(\"p: player, uuid:string\") :: boolean",
+            "   return true"
+        ]
+    },
+
+    "Player Function Number": {
+        "prefix": "$pfn",
+        "body": [
+            "function(\"p: player, uuid:string\") :: number",
+            "   #Do stuff"
+        ]
+    },
+
+    "Function Object": {
+        "prefix": "$fo",
+        "body": [
+            "function(\"list: objects\") :: object",
+            "   return {_list}"
+        ]
+    },
+}
