@@ -3,7 +3,7 @@
 Studio Skript is an open source Visual Studio Code snippets addon for Skript.
 It is currently in beta so expect some errors/bug but if you find any issues please report them
 
-##How to use
+## How to use
 Type any of the strings below and press tab.
 Use tab to cycle through the |'s 
 
